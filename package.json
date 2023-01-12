@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eun0leee/kakaoapi-login/issues"
   },
-  "homepage": "https://github.com/eun0leee/kakaoapi-login#readme"
+  "homepage": "https://github.com/eun0leee/kakaoapi-login#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
 }

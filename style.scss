@@ -1,0 +1,94 @@
+button,
+a,
+input {
+  background-color: transparent;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px;
+}
+
+header {
+  width: 600px;
+  padding: 30px 0;
+  border-bottom: 1px solid #b1aeae91;
+  text-align: center;
+  font-weight: 700;
+}
+
+main {
+  width: 600px;
+  padding: 40px 70px;
+
+  .kakao-login {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #222222;
+      margin-bottom: 30px;
+    }
+
+    button {
+      width: 100%;
+      padding: 20px 0;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      background-color: #fee500;
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+
+  .site-login {
+    .btns {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+    form {
+      .inputbox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        input {
+          width: 100%;
+          padding: 20px;
+          border: 1px solid #e1e1e1;
+
+          &:first-child {
+            border-bottom: none;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+          }
+
+          &:last-child {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+
+      > input {
+        width: 100%;
+        padding: 15px 0;
+        border-radius: 5px;
+        background-color: #31363d;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+}

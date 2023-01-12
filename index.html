@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="reset-css.css" />
     <link rel="stylesheet" href="style.scss" />
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-    <script src="main.js"></script>
-    <title>Document</title>
+    <script defer src="main.js"></script>
+    <title>LOGIN REST API</title>
   </head>
   <body>
-    <button>카카오 로그인</button>
-    <button>카카오 로그아웃</button>
+    <header>
+      <h1>LOGIN REST API</h1>
+    </header>
+    <main>
+      <section class="kakao-login">
+        <h2>로그인</h2>
+        <p>
+          아이디와 비밀번호 입력하기 귀찮으시죠? <br />
+          카카오로 1초 만에 로그인 하세요.
+        </p>
+        <button>카카오 1초 로그인/회원가입</button>
+      </section>
+      <section class="site-login">
+        <div class="btns">
+          <a>기존 회원 로그인</a>
+        </div>
+        <form>
+          <div class="inputbox">
+            <input type="text" placeholder="아이디" />
+            <input type="password" placeholder="비밀번호" />
+          </div>
+          <input type="submit" value="기존 회원 로그인" />
+        </form>
+      </section>
+    </main>
   </body>
 </html>
